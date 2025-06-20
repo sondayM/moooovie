@@ -2,17 +2,23 @@ import 'package:flutter/material.dart';
 import 'package:moovie/Home.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const TurkishMoviesApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class TurkishMoviesApp extends StatelessWidget {
+  const TurkishMoviesApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-     
-      home:TurkishMoviesApp(),
+      title: 'Turkish Movies & Series',
+      theme: ThemeData(
+        primarySwatch: Colors.red,
+        scaffoldBackgroundColor: Colors.black,
+        brightness: Brightness.dark,
+      ),
+      home:  SplashScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

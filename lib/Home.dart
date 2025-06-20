@@ -188,7 +188,7 @@ class _HomeScreenState extends State<HomeScreen> {
       genre: 'Action, Sci-Fi',
       rating: 8.2,
       year: '2024',
-      imageUrl: 'assets/movie2.jpg',
+      imageUrl: 'assets/movie1.jpg',
       description: 'A magical journey of two brothers discovering their potential.',
     ),
     Movie(
@@ -196,7 +196,7 @@ class _HomeScreenState extends State<HomeScreen> {
       genre: 'Netflix',
       rating: 7.8,
       year: '2024',
-      imageUrl: 'assets/movie3.jpg',
+      imageUrl: 'assets/movie1.jpg',
       description: 'Dark comedy series with supernatural elements.',
     ),
   ];
